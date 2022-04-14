@@ -16,7 +16,7 @@ public class Main {
         for (int i = 1; i <= N; i++) {
             int M = Integer.parseInt(st.nextToken());
             if (M < X) {
-                sb.append(M + " ");
+                sb.append(M).append(' ');
             }
         }
 
